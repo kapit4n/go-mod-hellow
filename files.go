@@ -13,7 +13,7 @@ func check(e error) {
 	}
 }
 
-func main() {
+func main2() {
 	d1 := []byte("hello\ngo\n")
 	err := ioutil.WriteFile("dat1", d1, 0644)
 	check(err)
