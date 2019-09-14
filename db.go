@@ -14,7 +14,6 @@ type Product struct {
 }
 
 func main() {
-
 	queryDb()
 
 }
